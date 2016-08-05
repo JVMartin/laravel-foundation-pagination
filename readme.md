@@ -16,13 +16,11 @@ array in your `config/app.php` file:
 
 `'Foundation\FoundationServiceProvider',`
 
-Add the facade (Optional):
+Add the facade:
 
 `'Foundation' => 'Foundation\Facades\Foundation',`
 
 ## Usage
-
-Currently only implements regular pagination:
 
 ```
 <div class="pagination-centered">

@@ -17,15 +17,6 @@ class FoundationServiceProvider extends ServiceProvider
 	 */
 	protected $defer = true;
 
-	public function boot()
-	{
-		$this->loadViewsFrom(__DIR__.'/../resources/views', 'foundation');
-
-		$this->publishes([
-			__DIR__.'/../resources/views' => base_path('resources/views/vendor/foundation'),
-		], 'views');
-	}
-
 	public function register()
 	{
 		$this->app->bind('foundation', 'Foundation\Factory');
