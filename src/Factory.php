@@ -9,8 +9,8 @@ namespace Foundation;
 use Foundation\Pagination\FoundationSixPresenter;
 use Foundation\Pagination\SimpleFoundationSixPresenter;
 
-class Factory {
-
+class Factory
+{
 	/**
 	 * @param $records
 	 * @return FoundationSixPresenter

@@ -10,7 +10,6 @@ use Illuminate\Pagination\BootstrapThreePresenter;
 
 class FoundationSixPresenter extends BootstrapThreePresenter
 {
-
 	/**
 	 * Get HTML wrapper for active text.
 	 *

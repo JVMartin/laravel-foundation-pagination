@@ -6,10 +6,10 @@
 
 namespace Foundation;
 
-use Collective\Html\HtmlServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class FoundationServiceProvider extends HtmlServiceProvider {
-
+class FoundationServiceProvider extends ServiceProvider
+{
 	/**
 	 * Indicates if loading of the provider is deferred.
 	 *
@@ -28,11 +28,8 @@ class FoundationServiceProvider extends HtmlServiceProvider {
 
 	public function register()
 	{
-		parent::register();
-
 		$this->app->bind('foundation', 'Foundation\Factory');
 	}
-
 
 	/**
 	 * Get the services provided by the provider.

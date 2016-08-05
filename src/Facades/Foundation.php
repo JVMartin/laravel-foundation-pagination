@@ -8,8 +8,8 @@ namespace Foundation\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Foundation extends Facade {
-
+class Foundation extends Facade
+{
 	/**
 	 * @return string
 	 */
